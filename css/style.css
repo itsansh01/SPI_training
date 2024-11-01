@@ -1,0 +1,159 @@
+.top-nav{
+    height: 37px;
+}
+
+#img{
+    height: 300px;
+   
+}
+#img .col-sm-12{
+    
+    background-image: url('../images/page-header.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-yellow{
+    color: #ef662f;
+}
+#img ol{
+    text-align: center;
+}
+.yellow{
+    background-color: #ef662f;
+}
+label{
+    font-size: 16px;
+    font-weight: bold;
+}
+span{
+    color: red;
+    font-weight: bold;
+}
+.foot{
+    height: 150px;
+}
+.text{
+    font-size: 14px;
+    text-align: justify;
+}
+a:hover{
+    text-decoration: underline;
+    /* color: #ef662f;   */
+}
+.clip{
+    height: 200px;
+    width: 100%;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 6% 75%, 7% 90%, 0 75%, 0% 75%);
+    background-color: white;
+    color: black;
+}
+#img-index{
+    background-image: url('../images/page-header.jpg');
+    object-fit: cover;
+    height: 150px;
+    text-align: justify;
+    object-position: center;
+    background-repeat: no-repeat;
+}
+.text-align{
+    text-align: justify;
+}
+#icon{
+    height: 55px;
+    width: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+    
+    border-radius: 10px;
+    /* background-color: black; */
+}
+#icon i{
+    font-size:30px;
+    color: #ef662f;
+    margin-top: 28px;
+    margin-left: 10px;
+    text-align: center;
+}
+.fa-2x{
+    font-size: 2em;
+}
+.speech-bubble {
+    position: relative;
+    padding: 50px;
+    background-color: #e2dddd; /* Background color similar to the image */
+    width: 300px; /* Adjust based on your design *//
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px;
+    clip-path: polygon(10% 0%, 100% 0%, 100% 90%, 0% 90%, 5% 100%, 4% 90%, 0% 90%, 0% 0%);
+}
+
+/* Add quotation mark styling */
+.speech-bubble::before {
+    content: '“';
+    font-size: 40px;
+    color: #9d9393; /* Color of the quotation mark */
+    position: absolute;
+    top: -10px;
+    left: -1px;
+    font-family: Georgia, serif;
+}
+#statics{
+    background-image: linear-gradient(rgba(0, 0, 5, 0.7), rgba(0, 0, 0, 0.8)), url('../images/bg2.jpg');
+    color: white;
+    object-fit: cover;
+    object-position: center;
+   background-attachment: fixed;
+}
+.counter-item {
+    display: block;
+    position: relative;
+    text-align: center;
+    border: double 3px rgba(255, 255, 255, 0.6);
+    border-radius: 2px;
+    padding: 30px 20px;
+    margin-bottom: 30px;
+}
+.counter-item .count-value {
+    display: block;
+    font-size: 44px;
+    margin: 0;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.counter-item p {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 21px;
+}
+.stati p{
+    font-size: 14px;
+    text-align: justify;
+}
+#tech ul li a i:hover{
+    color: #ef662f;
+    transition: 2s ease;
+}
+#tech ul li a h6:hover{
+    font-weight: 500;
+    color: #ef662f;
+    transition: 0.3s ease;
+}
+.mycard:hover{
+    transition: 0.5s ease;
+    width: 100%;
+ }
+ .zoom-in {
+    overflow: hidden;
+    object-fit: cover;
+    transition: 0.5s ease;
+    width: 100%;
+ }
+ .zoom-in:hover iframe{
+    transform: scale(1.1);
+   transition: 0.5s ease;
+ }
